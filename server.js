@@ -25,7 +25,7 @@ const requestLogger = require('./lib/request_logger')
 const tokenOrBearer = require('./lib/token_or_bearer')
 
 // Define Ports
-const reactPort = 7165
+const reactPort = 5000
 const expressPort = 3000
 
 // establish database connection
