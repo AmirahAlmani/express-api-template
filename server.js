@@ -30,9 +30,9 @@ const expressPort = 5000
 
 // establish database connection
 mongoose.Promise = global.Promise
-mongoose.connect(db, {
-  useMongoClient: true
-})
+mongoose.connect(db,
+  { useNewUrlParser: true }
+)
 
 // instantiate express application object
 const app = express()
