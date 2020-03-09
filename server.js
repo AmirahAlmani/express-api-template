@@ -25,8 +25,8 @@ const requestLogger = require('./lib/request_logger')
 const tokenOrBearer = require('./lib/token_or_bearer')
 
 // Define Ports
-const reactPort = 5000
-const expressPort = 3000
+const reactPort = 3000
+const expressPort = 5000
 
 // establish database connection
 mongoose.Promise = global.Promise
@@ -73,7 +73,7 @@ app.use(errorHandler)
 
 // run API on designated port (3000 in this case)
 app.listen(port, () => {
-  console.log('listening on port ' + port)
+  console.log('listening on port wow' + port)
 })
 
 // needed for testing
